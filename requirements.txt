@@ -3,3 +3,5 @@ pandas
 sqlalchemy
 scholarly
 alembic
+colorlog
+python-dotenv
