@@ -5,9 +5,9 @@ from app.models.models import Base, Author, Publication, Journal
 # data directory
 PROCESSED_DATA_DIR = 'data/processed/'
 
-authors_data_path = 'models/model_data/authors.csv'
-publications_data_path = 'models/model_data/publications.csv'
-journals_data_path = 'models/model_data/journals.csv'
+authors_data_path = 'model_data/authors.csv'
+publications_data_path = 'model_data/publications.csv'
+journals_data_path = 'model_data/journals.csv'
 
 # model data
 authors_df = pd.read_csv(os.path.join(PROCESSED_DATA_DIR, authors_data_path))

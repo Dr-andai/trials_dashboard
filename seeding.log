@@ -1,0 +1,35 @@
+2024-07-10 16:58:55 - INFO - Seeding authors...
+2024-07-10 16:58:55 - INFO - authors DataFrame stats:                  name author_title institution
+count               2            2           2
+unique              2            1           1
+top     paola alberti          nil         nil
+freq                1            2           2
+2024-07-10 16:58:55 - INFO - Seeding the authors completed successfully.
+2024-07-10 16:58:55 - INFO - Seeding publications...
+2024-07-10 16:58:55 - INFO - publications DataFrame stats:                author                                  publication_title         year   citations
+count             252                                                252   252.000000  252.000000
+unique              2                                                251          NaN         NaN
+top     paola alberti  Peripheral neurotoxicity of oxaliplatin in com...          NaN         NaN
+freq              243                                                  2          NaN         NaN
+mean              NaN                                                NaN  1993.488095   18.710317
+std               NaN                                                NaN   219.398516   52.326886
+min               NaN                                                NaN     0.000000    0.000000
+25%               NaN                                                NaN  2016.000000    0.000000
+50%               NaN                                                NaN  2019.000000    0.000000
+75%               NaN                                                NaN  2021.000000   10.000000
+max               NaN                                                NaN  2024.000000  432.000000
+2024-07-10 16:58:55 - INFO - Seeding the publications completed successfully.
+2024-07-10 16:58:55 - INFO - Seeding journals...
+2024-07-10 16:58:56 - INFO - journals DataFrame stats:                author            citation  country   year  impact_factor
+count             252                 252      0.0  252.0          252.0
+unique              2                 156      NaN    NaN            NaN
+top     paola alberti  Data_not_available      NaN    NaN            NaN
+freq              243                  14      NaN    NaN            NaN
+mean              NaN                 NaN      NaN    0.0            0.0
+std               NaN                 NaN      NaN    0.0            0.0
+min               NaN                 NaN      NaN    0.0            0.0
+25%               NaN                 NaN      NaN    0.0            0.0
+50%               NaN                 NaN      NaN    0.0            0.0
+75%               NaN                 NaN      NaN    0.0            0.0
+max               NaN                 NaN      NaN    0.0            0.0
+2024-07-10 16:58:56 - INFO - Seeding the journals completed successfully.

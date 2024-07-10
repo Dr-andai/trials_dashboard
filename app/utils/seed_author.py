@@ -9,7 +9,7 @@ from app.utils.logger import setup_logging
 
 # load data
 PROCESSED_DATA_DIR = 'data/processed/'
-authors_data_path = 'models/model_data/authors.csv'
+authors_data_path = 'model_data/authors.csv'
 
 authors_df = pd.read_csv(os.path.join(PROCESSED_DATA_DIR, authors_data_path))
 
@@ -18,7 +18,7 @@ session = SessionLocal()
 
 # Seeder
 def seed_author(model, df):
-    model_fields = set(model.__table__.column.keys())
+    model_fields = set(model.__table__.columns.keys())
     df_columns = set(df.columns)
 
     # check column names
